@@ -16,6 +16,9 @@ public class VectorDemo : MonoBehaviour
     public float angleFront = 120;
     public float dis = 3;
     public float angle3;
+
+    public AnimationCurve curve;
+    private float x;
     //方法
     private void Update()
     {
@@ -151,6 +154,33 @@ public class VectorDemo : MonoBehaviour
             this.transform.rotation.ToAngleAxis(out angle, out axis);
             Debug.LogFormat("{0}--{1}",angle,axis);
         }
+        if (GUILayout.RepeatButton("移动"))
+        {
+            Vector3 now = this.b.transform.position;
+            Vector3 tar = this.b.transform.position + new Vector3(10, 0, 0);
+            this.b.transform.position = Vector3.MoveTowards(this.b.transform.position, new Vector3(10, 0, 0), 0.1f);
+        }
+        if (GUILayout.RepeatButton("自定义移动"))
+        {
+            x += 0.005f;
+            this.b.transform.position = Vector3.LerpUnclamped(new Vector3(0, 0, 0), new Vector3(10, 0, 0), curve.Evaluate(x));
+        }
+        //下面两个方法看上去一样，但是当你要做缓动的时候，你可能要用到下面的第一种方式了
+        //this.transform.rotation = Quaternion.LookRotation(b.transform.position - this.transform.position);
+        //this.transform.LookAt(b.transform);
 
+        //缓动 
+        Quaternion tar1 = Quaternion.LookRotation(b.transform.position - this.transform.position);
+        //this.transform.rotation = Quaternion.Lerp(this.transform.rotation, tar1, 0.1f);
+
+        //匀速
+        //this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, tar1, 0.1f);
+
+
+        //物体x朝向一直跟着某个方向旋转
+        //this.transform.right = b.transform.position - this.transform.position;
+
+        Quaternion dir11 = Quaternion.FromToRotation(Vector3.right, b.transform.position - this.transform.position);
+        this.transform.rotation = Quaternion.Lerp(this.transform.rotation, dir11,0.1f);
     }
 }

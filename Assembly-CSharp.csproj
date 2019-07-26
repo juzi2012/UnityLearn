@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}</ProjectGuid>
+    <ProjectGuid>{8121BC22-1B0B-C349-8D1A-46ED91C50F57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,26 +71,30 @@
     <Compile Include="Assets\Scripts\ScriptsLearn\Wife.cs" />
     <Compile Include="Assets\Scripts\UnityScript\ComponentLearn.cs" />
     <Compile Include="Assets\Scripts\UnityScript\LifeCycle.cs" />
+    <Compile Include="Assets\Scripts\UnityScript\ParticleLearn.cs" />
+    <Compile Include="Assets\Scripts\UnityScript\PlayerMoveByUnityMath.cs" />
+    <Compile Include="Assets\Scripts\UnityScript\SpaceLearn.cs" />
     <Compile Include="Assets\Scripts\UnityScript\TimeScript.cs" />
     <Compile Include="Assets\Scripts\UnityScript\UnityMath.cs" />
     <Compile Include="Assets\Scripts\UnityScript\VectorDemo.cs" />
+    <None Include="Assets\Materials\NewSurfaceShader.shader" />
     <Reference Include="Cinemachine">
-      <HintPath>D:/opengl/project/unity/Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>D:/opengl/project/unity/UnityLearn/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/opengl/project/unity/Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/opengl/project/unity/UnityLearn/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/opengl/project/unity/Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/opengl/project/unity/UnityLearn/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/opengl/project/unity/Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/opengl/project/unity/UnityLearn/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/opengl/project/unity/Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>D:/opengl/project/unity/UnityLearn/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/opengl/project/unity/Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/opengl/project/unity/UnityLearn/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

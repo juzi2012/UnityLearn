@@ -236,6 +236,39 @@ MonoBehaviour:
   angleFront: 120
   dis: 3
   angle3: 0
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.7088542
+      outSlope: 3.7088542
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.33301285
+      value: 1.2350961
+      inSlope: 0.9999999
+      outSlope: 0.9999999
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8541565
+      value: 0.1875
+      inSlope: -2.0101867
+      outSlope: -2.0101867
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!65 &469437581
 BoxCollider:
   m_ObjectHideFlags: 0
