@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 7c396eebc2014df48aba8dfa6d48f38c, type: 3}
+  m_Name: InstanceTestMaterial
+  m_Shader: {fileID: 4800000, guid: 3ad68895dbe41ca499ada9ce529cf8da, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -72,5 +72,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.4716981, g: 0.16687433, b: 0.16687433, a: 1}
+    - _Color: {r: 0.46839812, g: 0.2732734, b: 0.6509434, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -64,12 +64,14 @@
     <Compile Include="Assets\FSMClearSignals.cs" />
     <Compile Include="Assets\FSMOnEnter.cs" />
     <Compile Include="Assets\Scripts\ActorController.cs" />
+    <Compile Include="Assets\Scripts\EditorTest\TestScript.cs" />
     <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\ScriptLearn.cs" />
     <Compile Include="Assets\Scripts\ScriptsLearn\Direct.cs" />
     <Compile Include="Assets\Scripts\ScriptsLearn\PersonStyle.cs" />
     <Compile Include="Assets\Scripts\ScriptsLearn\Wife.cs" />
     <Compile Include="Assets\Scripts\UnityScript\ComponentLearn.cs" />
+    <Compile Include="Assets\Scripts\UnityScript\GUPInstanceLearn.cs" />
     <Compile Include="Assets\Scripts\UnityScript\LifeCycle.cs" />
     <Compile Include="Assets\Scripts\UnityScript\ParticleLearn.cs" />
     <Compile Include="Assets\Scripts\UnityScript\PlayerMoveByUnityMath.cs" />
@@ -77,7 +79,7 @@
     <Compile Include="Assets\Scripts\UnityScript\TimeScript.cs" />
     <Compile Include="Assets\Scripts\UnityScript\UnityMath.cs" />
     <Compile Include="Assets\Scripts\UnityScript\VectorDemo.cs" />
-    <None Include="Assets\Materials\NewSurfaceShader.shader" />
+    <None Include="Assets\Materials\InstanceTestShader.shader" />
     <Reference Include="Cinemachine">
       <HintPath>D:/opengl/project/unity/UnityLearn/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
