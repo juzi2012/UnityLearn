@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.ScriptsLearn.Advance;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /*
@@ -20,6 +21,6 @@ public class TestScript : MonoBehaviour
     //方法
     private void Start()
     {
-        
+        ScriptAdvance05 script5 = new ScriptAdvance05();
     }
 }
